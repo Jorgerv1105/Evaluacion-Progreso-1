@@ -6,10 +6,9 @@ int main(){
     float sumatoria;
     printf("Ingrese un numero que sera tomado como n:");
     scanf("%d",&numero);
-    for(i=1;i<=numero;i++){
-        sumatoria=1/2;
-        printf("EL numero es el :%f",sumatoria);
+    for(i = 1; i <= numero; i++){
+        sumatoria = 1/2^i;
+        printf("Tus numeros de la sumatoria son :%f",sumatoria);
     }
-
     return 0;
 }
