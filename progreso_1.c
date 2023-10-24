@@ -2,12 +2,17 @@
 #include<stdio.h>
 #include<math.h>
 int main(){
+//Igreso de variables que necesitamos para el programa
     int numero,i;
     float sumatoria;
+//Interaccion con el usuario
     printf("Ingrese un numero que sera tomado como n:");
     scanf("%d",&numero);
+//Uso de for para determinar cuantas veces se debe repetir la sumatoria 
     for(i = 1; i <= numero; i++){
+//Calculo de la condicion que se nos plantea en el ejercicio
         sumatoria = 1/2^i;
+//Despliegue de las sumatorias del ejercicio
         printf("Tus numeros de la sumatoria son :%f",sumatoria);
     }
     return 0;
